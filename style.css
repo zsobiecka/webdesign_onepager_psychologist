@@ -225,6 +225,10 @@ padding: 2.8rem 0;
 padding: 2.4rem 1.2rem;
 }
 
+.contactcard i {
+  display: inline;
+}
+
 .mailicon {
   padding-left: .6rem;
 }
