@@ -37,7 +37,7 @@ small {
   color: white;
   border-color: #000000;
   font-weight: 600;
-  padding: 0.6rem 0.6rem;
+  padding: .6rem .6rem;
 }
 
 .btn:hover {
@@ -46,7 +46,7 @@ small {
   color: white;
   border-color: #000000;
   font-weight: 600;
-  padding: 0.6rem 0.6rem;
+  padding: .6rem .6rem;
 }
 
 .btn:active {
@@ -55,7 +55,7 @@ small {
   color: white;
   border-color: #000000;
   font-weight: 600;
-  padding: 0.6rem 0.6rem;
+  padding: .6rem .6rem;
 }
 
 .btn:focus {
@@ -64,7 +64,7 @@ small {
   color: white;
   border-color: #000000;
   font-weight: 600;
-  padding: 0.6rem 0.6rem;
+  padding: .6rem .6rem;
   box-shadow: 0 0 0 0.2rem rgba(255,201,54,.5);
 }
 
@@ -133,7 +133,11 @@ small {
 .services .cardtitle {
   vertical-align: middle;
   background-color: #ffc936;
-  padding: 0.9rem 1.5rem 0.3rem 1.5rem;
+  padding: .9rem 1.5rem 0.3rem 1.5rem;
+}
+
+.services figure {
+  margin: 0;
 }
 
 .services .cardtitlehigher {
@@ -146,7 +150,7 @@ small {
 }
 
 .services .card p {
-  padding: 0.6rem 1.2rem 2.4rem 1.2rem;
+  padding: .6rem 1.2rem 2.4rem 1.2rem;
 }
 
 .services .card .btn {
@@ -158,24 +162,33 @@ small {
 
 /*About me*/
 
+.aboutmecontainer {
+margin-top: 3rem;
+}
+
 .aboutmecard {
   position: relative;
 }
 
-.aboutmecard {
-  margin-top: 9rem;
+.aboutmecontent {
+  margin-top: 6rem;
+  margin-bottom: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 
-.aboutmecontent {
-    padding: 6.3rem 2.1rem 2.4rem 0;
+.aboutmecontent figcaption {
+display: flex;
+text-align: center;
 }
 
 .aboutmecontent h4 {
+  padding-top: 4.8rem;
   font-weight: 800;
 }
 
 .aboutmecontent ul li {
-  padding-top: 0.6rem;
+  padding-top: .6rem;
 }
 
 .luciaportrait {
@@ -201,7 +214,7 @@ small {
 
 /*Contactcontainer*/
 .contactbg {
-background-image: url("img/yellowfield.png");
+background-image: url("img/yellowfield.jpg");
 background-size: cover;
 background-position: center center;
 margin: 2.8rem 0 0 0;
@@ -213,7 +226,7 @@ padding: 2.4rem 1.2rem;
 }
 
 .mailicon {
-  padding-left: 0.6rem;
+  padding-left: .6rem;
 }
 
 form {
@@ -246,11 +259,11 @@ color: white;
 
 
 .aboutmecontainer {
-  background-image: url("img/forestbackground.png");
+  background-image: url("img/forestbackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 0.6rem 0 3.3rem 0;
+  padding: .6rem 0 3.3rem 0;
 }
 
 
@@ -286,9 +299,11 @@ color: white;
 }
 
   .aboutmecontainer {
-    margin: 2.8rem 0 0 0;
-    padding: 7.5rem 0 3.3rem 0;
+    margin-top: 1.8rem;
+    padding-bottom: 3.3rem;
   }
+
+
 
   .aboutmecard {
     margin-top: 1.2rem;
